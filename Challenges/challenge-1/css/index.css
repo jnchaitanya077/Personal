@@ -1,0 +1,86 @@
+body{
+   font-family: poppins;   
+   color:Very Light Gray;
+   margin: 5% 0%;
+}
+
+p{
+    font-weight: 100;
+}
+
+
+/* title */
+
+.head-paragraph, .title, .sub-title{
+    font-weight: 100 ;
+    text-align: center;
+    
+}
+
+.title{
+    font-weight: 200;
+}
+
+.sub-title, .card-heading{
+    font-weight: 600;
+}
+
+.card-heading{
+    font-size: large;
+}
+
+/*Cards  Section */
+
+#cards{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card{
+    border-radius: 3%!important;
+}
+
+/* Specific Cards */
+
+.one{
+    border-top: 5px solid cyan;
+
+}
+
+.two{
+    border-top: 5px solid red;
+
+}
+
+.three{
+    border-top: 5px solid orange;
+}
+
+.four{
+    border-top: 5px solid blue;
+}
+
+.side-card{
+    margin:40% 3%;
+    padding:5% 5%;
+}
+
+.middle-card{
+    margin: 7% 0;
+    
+}
+
+.logos{
+    float: right;
+}
+
+@media (max-width:900px){
+    .side-card{
+        margin: 10% auto;
+    }
+
+    #header{
+        margin-top: 5% auto;
+    }
+
+}
